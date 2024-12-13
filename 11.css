@@ -1,0 +1,73 @@
+body{
+    background: black;
+}
+
+
+h1{
+    translate: 295px -180px;
+    color: goldenrod;
+    font-size: 44px;
+    font-family: cursive;
+}
+
+
+.loop1{
+    translate: 230px 160px;
+    border-radius: 50%;
+    rotate: -80deg;
+
+    background: linear-gradient(-20deg, goldenrod, white, goldenrod, brown,
+    green, red, yellow, black);
+    width: 200px;
+    height: 200px;
+}
+
+.loop2{
+    translate: 360px -50px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    rotate: -85deg;
+    background: linear-gradient(130deg, blueviolet, brown, goldenrod, white);
+    clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 221 26 z');
+}
+
+
+.loop3{
+    translate: 220px -130px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    rotate: 180deg;
+    background: linear-gradient(130deg, blueviolet, brown, goldenrod, white);
+    clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 221 26 z');
+}
+
+.eye1{
+    translate: 360px -130px;
+    border-radius: 50%;
+    rotate: 90deg;
+    width: 30px;
+    height: 30px;
+    box-shadow: inset 3px 0 0 0 blanchedalmond,
+    inset 0 0 50px  black;
+}
+
+.eye2{
+    translate: 280px -158px;
+    border-radius: 50%;
+    rotate: 90deg;
+    width: 30px;
+    height: 30px;
+    box-shadow: inset 3px 0 0 0 blanchedalmond,
+    inset 0 0 50px  black;
+}
+
+
+.mauth{
+    translate: 310px -140px;
+    border-radius: 50%;
+    box-shadow: inset 0 -1px 0px 0 black;
+    width: 50px;
+    height: 50px;
+}
