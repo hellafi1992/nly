@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLY\LIBYANOTE</title>
+</head>
+
+<style>
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-size: cover;
+        background: #ffffff;
+    }
+
+    .h1{
+        color: rgb(58, 58, 135);
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+    }
+
+    .logo{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2{
+        translate: -20px;
+        color: brown;
+        text-align: center;
+    }
+    menu{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .ul{
+        text-align: center;
+    }
+
+
+    h3{
+        color: brown;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        text-shadow: 0 .4px black;
+    }
+
+
+    footer{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+    }
+
+    .ae{
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: darkblue;
+        text-shadow: 0 -2px red;
+    }
+
+    .ab{
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgba(0, 0, 139, 0.511);
+        text-shadow: 0 -2px rgba(255, 0, 0, 0.241);
+    }
+
+    .aa{
+        margin: 2px;
+    }
+
+
+    .token{
+        border: 0;
+        border-radius: 15px;
+        padding: 2em;
+        scale: .9;
+        position: relative;
+        top: -20px;
+        box-shadow: 0 0 10px black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 0 2px yellow;
+        background: linear-gradient(-90deg, silver, rgb(255, 255, 255), rgba(223, 151, 151, 0.155));
+    }
+
+    .contact{
+        color: blue;
+    }
+
+</style>
+
+<body>
+    <div class="ul">
+        <h1 class="h1">About</h1>
+    </div>
+    <menu>
+        <div class="logo">
+            <img class="logo" src="Gadafepng.png" alt="" width="200px">
+        </div>
+        <br>
+        <h1 class="ae aa">N L Y</h1>
+        <h4 class="ab aa">LIBYANOTE</h4>
+        <h2 class="token">A digital currency created on 12/12/2024. It is a currency that aims to encourage its country among the Forex markets. Another notable aspect is that it supports Libyan youth in the field of software development.
+            In the field of trading. Its price is now $0.000013. The stock will rise to 54% in the coming period of 2025 until it flops at $1 and above.
+            It has NLY 100M liquidity and a reserve value of $1400.
+            This coin gives the first gold mint of NLY 100,000.
+            (1) N L Y gold
+        </h2>
+        <h1 class="contact">Contact Us email Coin's owner</h1>
+        <br>
+        nlylibyanote@gmail.com
+    </menu>
+    <p style="text-align: center; color:blue; scale: 1.5;">_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_</p>
+</body>
+<h3>Official Page</h3>
+<footer style="color:blue; text-align: center;">&Colone; LIBYANOTE</footer>
+</html>
