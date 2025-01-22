@@ -12,8 +12,8 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-size: cover;
         background: #ffffff;
+        scale: .9;
     }
 
     .h1{
@@ -36,6 +36,8 @@
         text-align: center;
     }
     menu{
+        translate: 0 -70px;
+        scale: .89;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -79,9 +81,10 @@
 
 
     .token{
+        width: 100%;
         border: 0;
         border-radius: 15px;
-        padding: 2em;
+        padding: 5%;
         scale: .9;
         position: relative;
         top: -20px;
@@ -92,9 +95,21 @@
     }
 
     .contact{
+        translate: 0 -120px;
         color: blue;
     }
 
+    p{
+        position: relative;
+        top: -40px;
+    }
+
+    main{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 </style>
 
 <body>
@@ -114,12 +129,15 @@
             This coin gives the first gold mint of NLY 100,000.
             (1) N L Y gold
         </h2>
-        <h1 class="contact">Contact Us email Coin's owner</h1>
-        <br>
-        nlylibyanote@gmail.com
     </menu>
-    <p style="text-align: center; color:blue; scale: 1.5;">_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_</p>
+    <main>
+        <div class="main">
+            <h1 class="contact">Contact Us email Coin's owner</h1>
+            <h6 style="font-size: 25px; translate: 0 -180px;">nlylibyanote@gmail.com</h6>
+            <p style="text-align: center; color:blue;">_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_</p>
+            <h3 style="translate: 0 -270px;">Official Page</h3>
+            <footer style="color:blue; text-align: center;">&Colone; LIBYANOTE</footer>
+        </div>
+    </main>
 </body>
-<h3>Official Page</h3>
-<footer style="color:blue; text-align: center;">&Colone; LIBYANOTE</footer>
 </html>
